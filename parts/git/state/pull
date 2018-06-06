@@ -1,0 +1,27 @@
+!PullState
+assets:
+  build-packages: []
+  build-snaps: []
+  source-details: {source: 'https://github.com/git/git.git', source-branch: '', source-checksum: '',
+    source-commit: 3e5524907b43337e82a24afbc822078daf7a868f, source-tag: ''}
+  stage-packages: []
+extracted_metadata:
+  files: []
+  metadata: !ExtractedMetadata
+    _data: {}
+project_options: {deb_arch: amd64}
+properties:
+  override-pull: snapcraftctl pull
+  parse-info: []
+  plugin: nil
+  source: https://github.com/git/git.git
+  source-branch: ''
+  source-commit: ''
+  source-depth: 0
+  source-subdir: ''
+  source-tag: ''
+  source-type: ''
+  stage-packages: []
+schema_properties: []
+scriptlet_metadata: !ExtractedMetadata
+  _data: {}

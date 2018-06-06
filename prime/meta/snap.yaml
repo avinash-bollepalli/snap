@@ -1,0 +1,10 @@
+name: task-snap
+version: '1.0'
+summary: Hello, this is a file for git
+description: 'this is my snapcraft file for git
+
+  '
+architectures:
+- amd64
+confinement: devmode
+grade: devel

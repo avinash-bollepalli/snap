@@ -1,0 +1,16 @@
+name: task-snap
+version: '1.0'
+summary: Hello, this is a file for git
+description: |
+  this is my snapcraft file for git
+
+grade: devel
+confinement: devmode
+ 
+parts:
+ git:
+  source: https://github.com/git/git.git
+  plugin: nil
+ azcopy:
+  source: https://github.com/kpfaulkner/azurecopy.git
+  plugin: nil  
